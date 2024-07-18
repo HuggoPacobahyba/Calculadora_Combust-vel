@@ -28,7 +28,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="24dp"
-        android:text="Calculadora de gasto de combustivel"
+        android:textAlignment="center"
+        android:text="Calculadora de gasto de combustível"
         android:textColor="@color/white"
         android:textSize="32sp"
         app:layout_constraintTop_toBottomOf="@+id/vg_header" />
@@ -38,6 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="24dp"
+        android:textAlignment="center"
         android:text="Não tem ideia de quanto vai gastar de gasolina na sua viagem? Então está no lugar certo!"
         android:textColor="@color/grey"
         app:layout_constraintTop_toBottomOf="@+id/texto1" />
