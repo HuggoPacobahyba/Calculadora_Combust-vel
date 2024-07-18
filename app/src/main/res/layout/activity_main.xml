@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark_bg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/vg_header"
+        android:background="@drawable/round_bg"
+        android:layout_width="match_parent"
+        android:layout_height="312dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </LinearLayout>
+
+
+    <TextView
+
+        android:id="@+id/texto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:text="Calculadora de gasto de combustivel"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        app:layout_constraintTop_toBottomOf="@+id/vg_header" />
+
+    <TextView
+        android:id="@+id/sub_texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:text="Não tem ideia de quanto vai gastar de gasolina na sua viagem? Então está no lugar certo!"
+        android:textColor="@color/grey"
+        app:layout_constraintTop_toBottomOf="@+id/texto1" />
+
+    <Button
+        android:id="@+id/btn_Iniciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Iniciar"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
